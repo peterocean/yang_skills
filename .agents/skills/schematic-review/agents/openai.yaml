@@ -1,6 +1,6 @@
 interface:
-  display_name: "Schematic Review"
-  short_description: "Interactive MCU resource and schematic change review."
-  default_prompt: "Use $schematic-review to review this project schematic and resource allocation."
+  display_name: "原理图评审"
+  short_description: "交互式 MCU 资源与原理图变更评审。"
+  default_prompt: "使用 $schematic-review 评审该项目的原理图和硬件资源分配。"
 policy:
   allow_implicit_invocation: true

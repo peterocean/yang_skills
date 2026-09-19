@@ -1,14 +1,14 @@
-# Resource Review Tables
+# 资源评审表
 
-Use the applicable table after inspecting supplied evidence. Do not fill unknown data with estimates.
+仅在检查完用户提供的证据后使用对应表格；未知信息不得估算填写。
 
-## Resource allocation
+## 资源分配表
 
-| Type | MCU pin / peripheral | Net / reference | Function | Evidence | Status | Note |
+| 资源类型 | MCU 引脚 / 外设 | 网络 / 位号 | 功能 | 证据 | 状态 | 说明 |
 | --- | --- | --- | --- | --- | --- | --- |
 
-## Customer confirmation differences
+## 客户确认差异表
 
-| Marker | Change | Resource | Original | New / suspected assignment | Evidence | Impact | Recommendation | Customer confirmation |
+| 标记 | 变更 | 资源 | 原有分配 | 新分配 / 疑似分配 | 证据 | 影响 | 建议 | 客户确认 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **[REVIEW REQUIRED]** | Remapped | TIM2_CH1 | PA0 / encoder A | PB3 / encoder A | Sheet and MCU datasheet refs | Firmware timer pin update | Confirm pin/function choice | Pending |
+| **[需客户确认]** | 引脚重映射 | TIM2_CH1 | PA0 / 编码器 A | PB3 / 编码器 A | 原理图页及 MCU 数据手册 | 固件定时器引脚需更新 | 确认引脚与复用功能选择 | 待客户确认 |

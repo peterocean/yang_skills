@@ -4,6 +4,14 @@ description: Conduct interactive electronic schematic reviews and resource-alloc
 ---
 
 # Schematic Review
+## 用户界面语言
+
+所有面向用户的内容必须使用简体中文：首轮提问、补充资料请求、进度说明、资源分配表、状态值、风险说明、差异高亮、客户确认提示和最终结论。即使原理图、代码、数据手册或用户输入使用其他语言，也以中文解释；文件路径、器件型号、网络名、寄存器名、引脚名及原始代码符号保持原样。
+
+资源状态使用“已自动确认”“仅原理图存在”“仅代码存在”“存在冲突”或“待补充证据”。需要客户处理的行以 `**[需客户确认]**` 标记，并将确认状态写为“待客户确认”。
+
+当需要用户提供资料时，直接用中文说明缺少的最小资料和用途；例如：“请提供新原理图文件或其绝对目录，以及 MCU/SoC 的完整订货型号和封装信息。”
+
 
 Lead an evidence-based conversation. Treat the schematic, code, BOM, datasheet, and user answers as the only sources of truth. Do not invent values, pin functions, nets, operating conditions, package variants, or compliance claims. Ask for only the missing artifact that blocks the next step, and do not modify files unless separately asked.
 

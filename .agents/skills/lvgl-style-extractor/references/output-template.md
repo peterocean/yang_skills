@@ -8,6 +8,16 @@
 | --- | --- | --- | --- | --- | --- |
 | header_title | `lv_label` | x, y, w, h | 文字色、字号、对齐 | 图片可直接确认 | 字体待确认 |
 
+## C 宏定义
+
+```c
+#define UI_COLOR_BG           0x002B52
+#define UI_CARD_BORDER_WIDTH  1
+#define UI_CARD_RADIUS        0
+```
+
+颜色宏保存 `0xRRGGBB`，在 LVGL 代码中以 `lv_color_hex(UI_COLOR_BG)` 使用。
+
 ## 待确认项
 
 | 项目 | 原因 | 建议 |

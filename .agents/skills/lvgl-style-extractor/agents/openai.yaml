@@ -1,0 +1,6 @@
+interface:
+  display_name: "LVGL 界面样式提取"
+  short_description: "从截图提取并生成缩放的 LVGL 控件样式与布局代码。"
+  default_prompt: "使用 $lvgl-style-extractor 读取这张界面图，并生成适配目标分辨率的 LVGL 控件样式和页面代码。"
+policy:
+  allow_implicit_invocation: true

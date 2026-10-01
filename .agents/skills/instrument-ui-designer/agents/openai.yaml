@@ -1,0 +1,6 @@
+interface:
+  display_name: "仪器界面对话式设计"
+  short_description: "确认屏幕约束，迭代预览并输出可实施的仪器界面规格。"
+  default_prompt: "使用 $instrument-ui-designer 通过对话确认我的仪器屏幕参数、视觉风格和布局，并生成可逐步确认的界面预览。"
+policy:
+  allow_implicit_invocation: true
